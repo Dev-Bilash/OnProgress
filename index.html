@@ -1,27 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
-    
-  </head>
-  <body>      <input type="button" class="btn btn-primary" value="Facebook" href="www.facebook.com">
-
-    <style>
-      h1{
-        margin:200px;
-        padding-left:2em;
-      }
-      background:url(![16528936](https://user-images.githubusercontent.com/62426144/79966934-fa32d500-84af-11ea-80dd-a84e2eac7a37.jpg));
-    </style>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Vanilla Tilt.js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="box">
+		<span style="--i:1;"></span>
+		<span style="--i:2;"></span>
+		<span style="--i:3;"></span>
+		<span style="--i:4;"></span>
+		<span style="--i:5;"></span>
+		<span style="--i:6;"></span>
+		<span style="--i:7;"></span>
+		<span style="--i:8;"></span>
+		<span style="--i:9;"></span>
+		<span style="--i:10;"></span>
+		<span style="--i:11;"></span>
+		<span style="--i:12;"></span>
+		<span style="--i:13;"></span>
+		<span style="--i:14;"></span>
+		<span style="--i:15;"></span>
+		<span style="--i:16;"></span>
+		<span style="--i:17;"></span>
+		<span style="--i:18;"></span>
+	</div>
+	<script type="text/javascript" src="vanilla-tilt.js"></script>
+	<script type="text/javascript">
+		VanillaTilt.init(document.querySelectorAll(".box"), {
+			max: 25, 
+			speed: 400
+		});
+	</script>
+</body>
 </html>
